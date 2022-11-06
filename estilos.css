@@ -2,6 +2,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 body::after{
@@ -36,6 +37,23 @@ h1, h1, h3, h4, h5, h6 {
 
 h1 {
   font-size: 4rem;
+}
+
+h2 { 
+  font-size: 3.2rem;
+  color: #570c1c;
+}
+
+h3 {
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 2.4rem;
+  color: #25345e;
+}
+
+h5 {
+  color: #555;
+  font-size: 1.2rem;
+  letter-spacing: .1rem;  
 }
 
 h6 {
@@ -88,6 +106,22 @@ p {
 
 .btn-solido:hover {
   border-color: #570c1c;
-  transition: 500ms;
+}
+
+.div-sobre-foto img{
+  width: 90%;
+  margin-top: 50px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  display: inline-block;
+}
+
+.item-sobre i {
+  font-size: 2rem;
+  background-color: #5c86a7;
+  color: white;
+  padding: .5rem .8rem;
+  display: inline-block;
+  border-radius: 1rem;
 }
 
